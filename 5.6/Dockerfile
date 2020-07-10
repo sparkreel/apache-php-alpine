@@ -7,13 +7,13 @@ ARG PHP_VERSION="5.6.40"
 ARG PHP_SHA256="1369a51eee3995d7fbd1c5342e5cc917760e276d561595b6052b21ace2656d1c"
 
 # Labels and meta-data
-LABEL maintainer="danimas daniel@sysadmin.com.uy" \
+LABEL maintainer="Daniel daniel@upshow.tv" \
     decription="PHP ${PHP_VERSION}} with Apache" \
     version="${PHP_VERSION}" \
     org.label-schema.name="php" \
     org.label-schema.build-date=$BUILD_DATE \
     org.label-schema.vcs-ref=$VCS_REF \
-    org.label-schema.vcs-url="https://github.com/danimas/php-5.6-alpine" \
+    org.label-schema.vcs-url="https://github.com/sparkreel/apache-php-alpine" \
     org.label-schema.schema-version="1.0.0-rc1"
 
 # Copy in our assets.
